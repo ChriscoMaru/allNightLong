@@ -1,0 +1,8 @@
+body{
+    background-image: url("./assets/bangkok2.jpg");
+    /* https://www.goodfon.com/download/alexander-pavlov-by-alexander-pavlov-synth-retrowave-synthwa/1366x768/ */
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
