@@ -21,6 +21,14 @@ nav ul li a{
     font-family: 'Barlow', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(14, 240, 232, 0.76);
+  }
+
 #holder1{
     display: flex;
     width: 30%;
@@ -45,12 +53,7 @@ nav ul li a{
     font-family: 'Kanit', sans-serif;
     color: rgb(14, 240, 232);
     }
-a{
-    text-decoration: none;
-}
-a:hover {
-    color: rgba(14, 240, 232, 0.76);
-  }
+
   
 #text1{
     font-size: 30px;    
