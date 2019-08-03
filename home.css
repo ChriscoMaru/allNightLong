@@ -84,7 +84,7 @@ a:hover {
     align-items: center;
     text-align: center;
     position: relative;
-    left: 1300px;
+    left: 900px; /* used to be 1300 */
     border-radius: 10px;
     background: rgba(58, 59, 59, 0.521);
     padding: 0.5%;
@@ -121,6 +121,6 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1024)and(max-height: 768px){
    
 }
