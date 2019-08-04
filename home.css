@@ -1,0 +1,126 @@
+body {
+    background-image: url(https://images8.alphacoders.com/829/829728.jpg);
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If I want dots under the hoverable text */
+    font-family: 'Barlow', sans-serif; 
+}
+  
+  /* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(243, 63, 195, 0.521);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 138%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(243, 63, 195, 0.521) transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(54,255,255);
+  }
+
+#holder1{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 900px; /* used to be 1300 */
+    border-radius: 10px;
+    background: rgba(58, 59, 59, 0.521);
+    padding: 0.5%;
+}
+
+#holder2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.block h1{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(14, 240, 232);
+    }
+
+  
+#text1{
+    font-size: 30px;    
+    color: rgb(213, 180, 243);
+    }
+.block{
+    width: 200px;
+    height: 200px;
+    background: rgba(221, 6, 78, 0.600);
+    display: flex;
+    margin: 25% auto;
+    border-radius: 10px;
+}
+.block:hover {
+    background-color: rgba(221, 6, 78, 0.300);
+}
+
+
+@media only screen and (max-width: 1024)and(max-height: 768px){
+   
+}
