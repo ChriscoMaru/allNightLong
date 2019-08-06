@@ -71,6 +71,7 @@ nav ul li a{
   opacity: 1;
 }
 
+.tooltip {cursor: none;}
 
 a:hover{
     color: rgb(202,49,114);
