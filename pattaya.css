@@ -78,17 +78,20 @@ a:hover{
     color: rgb(228,185,78);
 }
 
-.patWrapper1 {
-    font-size: 100px;
-    color: rgb(228,185,78);
-}
-
-.patSignWrapper {
+#pattayaSign {
+   
     background-color: transparent;
     font-family: 'Lobster', cursive;
-    font-size: 20px;
-  }
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+#pattayaHolder1 {
+    font-size: 50px;
+    margin: 0 auto;
+}
   
-#pattayaSign {
-    fill: #FF9800;
+  text {
+    fill: rgb(228,185,78);
   }
+
