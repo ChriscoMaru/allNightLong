@@ -1,6 +1,6 @@
 body{
     background-image: url("./assets/pattaya.jpg");
-    /* https://www.goodfon.com/download/alexander-pavlov-by-alexander-pavlov-synth-retrowave-synthwa/1366x768/ */
+    /* http://www.52dazhew.com/w/585549519.html */
     background-position: right top;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:rgb(177,151,199);
     font-family: 'Barlow', sans-serif;
 }
 
@@ -26,7 +26,8 @@ nav ul li a{
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If I want dots under the hoverable text */
+    color: rgb(177,151,199);
+    border-bottom: 1px dotted rgb(177,151,199); /* If I want dots under the hoverable text */
     font-family: 'Barlow', sans-serif; 
 }
   
@@ -34,7 +35,7 @@ nav ul li a{
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: rgba(54, 255, 255, 0.521);
+    background-color: rgba(228,185,78,0.61);
     color: #fff;
     text-align: center;
     padding: 5px 0;
@@ -62,7 +63,7 @@ nav ul li a{
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent rgba(54, 255, 255, 0.521) transparent;
+    border-color: transparent transparent rgba(228, 185, 78, 0.61) transparent;
   }
   
   /* Show the tooltip text when you mouse over the tooltip container */
@@ -76,3 +77,18 @@ nav ul li a{
 a:hover{
     color: rgb(228,185,78);
 }
+
+.patWrapper1 {
+    font-size: 100px;
+    color: rgb(228,185,78);
+}
+
+.patSignWrapper {
+    background-color: transparent;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+  }
+  
+#pattayaSign {
+    fill: #FF9800;
+  }
