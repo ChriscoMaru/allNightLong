@@ -88,10 +88,15 @@ a:hover{
 
 #pattayaHolder1 {
     font-size: 50px;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+
 }
   
-  text {
+text {
     fill: rgb(228,185,78);
   }
 
