@@ -86,13 +86,30 @@ a:hover{
     margin: 0 auto;
 }
 
+text {
+  fill: rgb(228,185,78);
+}
+
 #pattayaHolder1 {
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
+  font-family: 'Satisfy', cursive; 
+  font-size: 60px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  /* this is for the gradient */  
+  background: -webkit-linear-gradient(rgb(228,185,78), rgb(140, 29, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+#pattayaHolder1{
+
 
 }
   
