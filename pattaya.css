@@ -97,11 +97,11 @@ text {
   top: 60%;
   left: 50%;
   align-items: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -15%);
   text-align: center;
 
   /* this is for the gradient */  
-  background: -webkit-linear-gradient(rgb(228,185,78), rgb(140, 29, 236));
+  background: -webkit-linear-gradient(rgb(228,185,78), rgb(250, 52, 52));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
