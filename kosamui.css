@@ -23,14 +23,14 @@ nav ul li a{
 }
 
 a:hover{
-    color: rgb(34,25,44);
+    color: rgb(255,43,119);
 }
 
 /* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted rgba(121, 110, 131, 0.400); /* If I want dots under the hoverable text */
+  border-bottom: 1px dotted rgba(255,43,119, 0.400); /* If I want dots under the hoverable text */
   font-family: 'Barlow', sans-serif; 
   color: rgb(121, 110, 131);
 }
@@ -39,7 +39,7 @@ a:hover{
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: rgba(121, 110, 131, 0.400);
+  background-color: rgba(255,43,119, 0.400);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -55,7 +55,7 @@ a:hover{
 
   /* Fade in tooltip */
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 1.5s;
 }
 
 /* Tooltip arrow */
@@ -67,7 +67,7 @@ a:hover{
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent rgba(121, 110, 131, 0.521) transparent;
+  border-color: transparent transparent rgba(255,43,119, 0.400) transparent;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -77,4 +77,5 @@ a:hover{
 }
 
 .tooltip {cursor: none;}
+
 
